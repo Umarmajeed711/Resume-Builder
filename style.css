@@ -24,7 +24,7 @@ p{
     font-family: "Hind", sans-serif;
 }
 .name{
-    color:black;
+    color:white;
     background-color:#52b2bf;
     /* color: white; */
     margin-top: 5rem;
@@ -36,7 +36,7 @@ p{
     
    
 }
-/* #0A1172,#0492C2,#63C5DA */
+
 .profile{
     background-color: var(--dark);
     height: 1000px;
@@ -47,6 +47,8 @@ p{
 
 .image{
     margin-top: 4rem;
+    border:4px solid var(--light) !important;
+    border-radius: 50px;
 }
 
 .info{
@@ -91,27 +93,57 @@ p{
 
 @media only screen and (max-width:992px){
     .profile{
-        width: 50vw;
+        width: 80vw;
         margin-left: 0rem;
+        font-size: 20px;
+    }
+    .info{
+        font-size: 20px;
     }
     .main{
         height: 2000px;
+    }
+    .accord{
+        font-size: 20px;
     }
 }
 
 @media only screen and (max-width:768px){
     .profile{
-        width: 60vw;
+        width: 80vw;
+        font-size: 20px;
+    }
+    .info{
+        font-size: 20px;
     }
     .main{
         height: 2000px;
     }
+    .accord{
+        font-size: 20px;
+        padding-left: 0 !important;
+    }
 }
 @media only screen and (max-width:575px){
+    
     .profile{
-        width: 80vw;
+        width: 90vw;
+        font-size: 20px;
+        height: 1100px;
+    }
+    .info{
+        font-size: 20px;
+    }
+    .accord{
+        font-size: 20px;
+        padding-left: 0 !important;
     }
     .main{
-        height: 2200px;
+        height: 2400px;
+    }
+    .anchor{
+        margin-top: 7rem;
+        padding: 5px;
+        text-align: center;
     }
 }
