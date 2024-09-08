@@ -140,6 +140,7 @@ p{
     }
     .main{
         height: 2400px;
+        margin-top: 0;
     }
     .anchor{
         margin-top: 7rem;
