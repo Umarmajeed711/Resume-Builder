@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Hind:wght@300;400;500;600;700&display=swap');
+:root{
+    --dark: #0A1172;
+    --light:#63C5DA;
+}
+
+
+.main{
+    background-color: rgb(236, 224, 224);
+    position: relative !important;
+    margin-top: 50px;
+    height: 1000px;
+}
+
+h2 {
+    font-family: "Bitter", serif;
+}
+h4 ,h5 ,h6{
+    font-family: "Bitter", serif;
+    color: #0A1172;
+}
+p{
+    font-family: "Hind", sans-serif;
+}
+.name{
+    color:black;
+    background-color:#52b2bf;
+    /* color: white; */
+    margin-top: 5rem;
+    padding: 10px;
+    border:2px solid var(--dark);
+    border-radius: 10px;
+    box-shadow: 5px 5px 40px var(--dark);
+    opacity: 1;
+    
+   
+}
+/* #0A1172,#0492C2,#63C5DA */
+.profile{
+    background-color: var(--dark);
+    height: 1000px;
+    width: 30vw;
+    margin-left: 2rem;
+    z-index:  2 !important;
+}
+
+.image{
+    margin-top: 4rem;
+}
+
+.info{
+    color: white;
+
+}
+
+.info a{
+    text-decoration: none;
+    color: white;
+}
+
+.accord{
+    background-color: rgb(236, 224, 224);
+}
+
+.edu{
+    margin-top: 8rem;
+    box-shadow: 1px 1px 5px var(--dark);
+}
+.head{
+    border:2px solid var(--dark);
+}
+
+.anchor{
+    margin: 5rem;
+    background-color:var(--light);
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: all .3s;
+    font-size: 18px;
+}
+.anchor:hover , .anchor:active{
+    background-color:var(--dark);
+    color:white;
+    box-shadow: 5px 5px 20px var(--dark);
+}
+
+
+
+@media only screen and (max-width:992px){
+    .profile{
+        width: 50vw;
+        margin-left: 0rem;
+    }
+    .main{
+        height: 2000px;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .profile{
+        width: 60vw;
+    }
+    .main{
+        height: 2000px;
+    }
+}
+@media only screen and (max-width:575px){
+    .profile{
+        width: 80vw;
+    }
+    .main{
+        height: 2200px;
+    }
+}
